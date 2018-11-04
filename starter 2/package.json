@@ -1,0 +1,15 @@
+{
+  "name": "pgame",
+  "version": "1.0.0",
+  "description": "Game for Pigs",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.4"
+  },
+  "scripts": {
+    "compile:sass": "node-sass css/sass/main.scss css/style.css -w"
+  },
+  "author": "David",
+  "license": "ISC"
+}

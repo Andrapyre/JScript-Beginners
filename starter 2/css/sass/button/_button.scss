@@ -1,0 +1,38 @@
+.btn{
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: aqua;
+    font-weight: 50;
+
+    &_styling{
+        text-decoration: none;
+        color: black;
+        font-weight: 50;
+        font-size: 1.5rem;
+    }
+
+    &_new-game {
+        margin-top: 2rem;
+    }
+
+    &_roll-dice {
+        margin-top: 21rem;
+    }
+
+    &_hold {
+        margin-top: 25rem;
+    }
+
+    &:hover{
+        font-weight: 1000;
+        transition: all .8s ease;
+        
+    }
+}
+
+.body{
+    //sfont-weight: 300;
+}

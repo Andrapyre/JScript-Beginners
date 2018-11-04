@@ -1,0 +1,36 @@
+.box {
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    &_player{
+        width: 50%;
+        height: 100%;
+        float: left;
+        text-align: center;
+
+        &-1{
+            background-color: lightblue;
+        }
+
+        &-2{
+
+        }
+    }
+
+    &_score{
+        text-transform: uppercase;
+        border: 1px;
+        background-color: red;
+        width: 6rem;
+        height: 4rem;
+        margin: 0 auto;
+        margin-top: 9rem;
+        padding: 2px;
+    }
+}

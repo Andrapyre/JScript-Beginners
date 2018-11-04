@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 100; }
+
+.container {
+  height: 100vh;
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  position: relative; }
+
+.player_heading {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 6rem; }
+  .player_heading--1 {
+    color: white; }
+  .player_heading--2 {
+    color: gray; }
+
+.player_score {
+  font-size: 3.5rem;
+  color: red;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif; }
+
+.current {
+  font-size: .8rem;
+  color: lightgrey; }
+
+.score {
+  font-size: 2rem;
+  margin-top: .5rem; }
+
+.box {
+  height: 70%;
+  width: 70%;
+  background-color: white;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+  .box_player {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center; }
+    .box_player-1 {
+      background-color: lightblue; }
+  .box_score {
+    text-transform: uppercase;
+    border: 1px;
+    background-color: red;
+    width: 6rem;
+    height: 4rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    padding: 2px; }
+
+.btn {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: aqua;
+  font-weight: 50; }
+  .btn_styling {
+    text-decoration: none;
+    color: black;
+    font-weight: 50;
+    font-size: 1.5rem; }
+  .btn_new-game {
+    margin-top: 2rem; }
+  .btn_roll-dice {
+    margin-top: 21rem; }
+  .btn_hold {
+    margin-top: 25rem; }
+  .btn:hover {
+    font-weight: 1000;
+    transition: all .8s ease; }

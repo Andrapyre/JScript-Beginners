@@ -1,0 +1,30 @@
+.player_heading{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6rem;
+
+    &--1 {
+        color: white;
+    }
+
+    &--2 {
+    color: gray; 
+    }
+}
+
+.player_score{
+    font-size: 3.5rem;
+    color: red;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.current{
+    font-size: .8rem;
+    color: lightgrey;
+}
+
+.score{
+    font-size: 2rem;
+    margin-top: .5rem;
+}
